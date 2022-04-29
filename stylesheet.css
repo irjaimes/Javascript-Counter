@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.counter-content{
+    width: 300px;
+    height: 400px;
+    background: url(./assets/background.jpeg) center no-repeat ;
+    background-size: 200%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1, h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;   
+}
+h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color:azure;
+    margin-top: 15%;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.btn{
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 5%;
+}
+#increment-btn{
+    background-color: rgb(249, 181, 22);
+}
+#save-btn{
+    background-color: rgb(39, 194, 255);
+}
